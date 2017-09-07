@@ -1,0 +1,19 @@
+.container2 aside nav li:nth-of-type(6).hover{background-image:url(../images/圣诞晚会.gif); border-bottom:3px solid #fe9635;}
+.container2 section{padding-bottom:131px;}
+@media screen and (min-width:720px){
+	.container2{width:100%;}
+	.container2 .sdwh section{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(6).hover{background-image:url(../images/圣诞晚会.gif);}
+}
+@media screen and (min-width:480px) and (max-width:720px){
+	.container2 .sdwh section{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(6).hover{background-image:url(../images/圣诞晚会.gif); border:0;}
+}
+@media screen and (max-width:480px){
+	.container2 .sdwh section{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(1).hover{border:0;}
+	.container2 aside nav li:nth-of-type(6).hover{background-image:url(../images/圣诞晚会.gif);}
+}
+@media screen and (max-width:990px){
+	.container2 aside nav li:nth-of-type(6).hover{border:0;}
+}

@@ -1,0 +1,42 @@
+nav ul li:nth-of-type(6) a{ background: #5c5c5c;}
+nav ul li:nth-of-type(1) a{ background: none;}
+nav ul li:nth-of-type(1) a:hover{ background: #5c5c5c;}
+@media screen and (min-width: 1000px){
+	.hiddle{ display: none;}
+	.container23 { width: 95%; margin: 110px auto; max-width: 1000px;}
+	.container23 h2{text-align: center; font-size: 30px; height:40px; line-height: 40px; font-family: "Microsoft YaHei"; font-weight: bolder;}
+	.container23 h4{ text-align: center; font-size: 24px; height: 30px; line-height: 30px; font-family: "Microsoft YaHei"; margin-top: 20px; color: #888;}
+	.container23 ul{ margin-top: 57px; width: 100%;}
+	.container23 ul li{ width:22%; float: left; margin-right: 4%;height: 801px;}
+	.container23 ul li:nth-of-type(4),
+	.container23 ul li:nth-of-type(8),
+	.container23 ul li:nth-of-type(12){ margin-right: 0px; }
+	.container23 ul li p{ color: #888; line-height: 24px; margin-top: 16px; font-size: 14px; text-indent: 28px;}
+	.container23 ul li h5{ font-size: 18px; font-weight: bold; color: #888;    margin-top: 5px;}
+	.container23 ul li .zuopin{　color: #888; line-height: 24px; margin-top:1px; font-size: 14px; text-indent: 0px;}
+
+}
+@media screen and (min-width: 720px) and (max-width:1000px){
+	.hiddle{ display: none;}
+	.container23 { width: 95%; margin:100px auto; max-width: 1000px;}
+	.container23 h2{text-align:center; font-size: 30px; height:40px; line-height: 40px; font-family: "Microsoft YaHei"; font-weight: bolder;}
+	.container23 h4{ text-align: center; font-size: 24px; height: 30px; line-height: 30px; font-family: "Microsoft YaHei"; margin-top: 20px; color: #888;}
+	.container23 ul{ margin-top: 57px; width: 100%;}
+	.container23 ul li{ width:30%; float: left; margin-right: 5%;height: 801px;}
+	.container23 ul li{ text-align: left;}
+	.container23 ul li:nth-of-type(3),
+	.container23 ul li:nth-of-type(6),
+	.container23 ul li:nth-of-type(9),
+	.container23 ul li:nth-of-type(12){ margin-right: 0px; }
+	.container23 ul li p{ color: #888; line-height: 24px; margin-top: 16px; font-size: 14px; text-indent: 28px;}
+	.container23 ul li h5{ font-size: 18px; font-weight: bold; color: #888;    margin-top: 5px;}
+	.container23 ul li .zuopin{　color: #888; line-height: 24px; margin-top:1px; font-size: 14px; text-indent: 0px;}
+
+}
+@media only screen and (min-width: 720px) and (max-width: 768px) {
+	.container23 { width: 95%; margin:60px auto; max-width: 1000px;}
+}
+@media only screen and (max-width:485px ) {
+	.container23 h4{display: none;}
+}
+

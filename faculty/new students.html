@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+ 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="css/new students.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/mien-common.css" />
+		<link rel="stylesheet" type="text/css" href="css/zzsc.css"/>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+		<link rel="stylesheet" href="css/jquery.bxslider.css" />
+		<script src="js/jquery.js"></script>
+		<script src="../js/common.js"></script>
+		<script src="js/tools.min.js" type="text/javascript"></script>
+		<script src="js/jquery.bxslider.js"></script>
+	</head>
+	<body>
+		<div class="bg">
+		  <div class="container">
+			<header class="clearfix">
+				<div class="logo fl">
+					<a href="../index.html"><img src="../common/logo.jpg"  /></a>
+				</div>
+				<nav class="fl hidden-xs">
+					<ul class="clearfix">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="../School Profile/School Profile.html">学院概况</a></li>
+						<li><a href="../kcsz/kcsz.html">课程设置</a></li>
+						<li><a href="new students.html">校园风采</a></li>
+						<li><a href="../index.html#xueyuan">学员作品</a></li>
+						<li><a href="../szll/szll.html">师资力量</a></li>
+						<li><a href="../service/service.html">学员服务</a></li>
+						<li><a href="../call/index.html">联系我们</a></li>
+					</ul>
+				</nav>
+				<div class=" caidan hidden-lg hidden-md hidden-sm" id="pop_meum">
+					<button class="btn btn-default xiala"></button>
+				</div>
+				</header>
+			</div>
+			</div>
+			<div id="nav-block" class="nav none">
+					<ul class=" dropdown-menu-right fot">
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="../School Profile/School Profile.html">学院概况</a></li>
+						<li><a href="../kcsz/kcsz.html">课程设置</a></li>
+						<li><a href="new students.html">校园风采</a></li>
+						<li><a href="../index.html#xueyuan">学员作品</a></li>
+						<li><a href="../szll/szll.html">师资力量</a></li>
+						<li><a href="../service/service.html">学员服务</a></li>
+						<li><a href="../call/index.html">联系我们</a></li>
+						</ul>
+				</div>
+		<div class="container2">
+			<div class="slider7">
+					<div class="slide"><img src="images/xsjx_1.jpg" /></div>
+					<div class="slide"><img src="images/xsjx_2.jpg" /></div>
+					<div class="slide"><img src="images/xsjx_3.jpg" /></div>
+					<div class="slide"><img src="images/xsjx_4.jpg" /></div>
+					<div class="slide"><img src="images/xsjx_5.jpg" /></div>
+				</div>
+				<script>
+					$(document).ready(function(){
+						$('.slider7').bxSlider({
+							slideWidth:1920,//配置焦点图的高度
+							infiniteLoop:false,
+							hideControlOnEnd:true,
+							slideMargin:0
+						});
+					});
+				</script>
+			<div class="students clearfix">
+				
+				<aside class="fl">
+					<nav>
+						<ul class="clearfix">
+							<li class="hover"><a href="new students.html">新生军训</a></li>
+							<li><a href="hysxjd.html">环艺实习<span>基地</span></a></li>
+							<li><a href="qwydh.html">趣味运动会</a></li>
+							<li><a href="dxssx.html">大学生实训</a></li>
+							<li><a href="by.html">观看话剧<span>表演</span></a></li>
+							<li><a href="sdwh.html">圣诞晚会</a></li>
+						</ul>
+					</nav>
+				</aside>
+				<section class="fl">
+					<div class="c">
+			                    <div class="c1_l">
+			                        <div class="c1_slide" id="c1_slide">
+			                            <ul>
+			                                <li><a><img src="images/xsjx_1.jpg"></a></li>
+			                                <li><a><img src="images/xsjx_2.jpg"></a></li>
+			                                <li><a><img src="images/xsjx_3.jpg"></a></li>
+			                                <li><a><img src="images/xsjx_4.jpg"></a></li>
+			                                <li><a><img src="images/xsjx_5.jpg"></a></li>
+			                            </ul>
+			                        </div>
+			                        <div class="c1_paging">
+			                            <ul id="c1_paging">
+			                                <li class="active"><i></i><img src="images/xsjx_11.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/xsjx_22.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/xsjx_33.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/xsjx_44.jpg" width="110" height="65"><b></b></li>
+			                                <li><i></i><img src="images/xsjx_55.jpg" width="110" height="65"><b></b></li>
+			                            </ul>
+			                        </div>
+			                    </div>
+			                </div> 
+						<script>
+							$("#c1_slide").scrollable({circular:true}).autoscroll({autoplay: true,interval: 3000 }).navigator("#c1_paging");
+						</script>
+					<p>
+						新生军训活动中，孩子们尊敬教官，一切行动听指挥，学会了服从命令，服从纪律，做到不怕苦、不怕累；孩子们都能
+						严格要求自己，严守纪律，完全按照军校、教官的要求，做到令行禁止。通过五天的军训，孩子们的精神面貌发生了可
+						喜的变化，文明素质、组织纪律性、团结协作精神有了明显的提高；本次军训活动还培养了孩子们坚强的毅力，这几天
+						正值高温，酷暑难耐，无论在体能上还是在心理上孩子们都经受住了考验，增强了身体素质，规范了自己的行为，为今
+						后的学习奠定了良好的基础，同时加快了孩子们适应高中生活的进程，意义非凡；通过军训，孩子们初步形成了服从领
+						导、听从指挥、带头遵守学校纪律的观念；初步形成了我为他人、集体第一的做人风范；初步形成了团结友爱、大局为
+						重、相互合作的集体主义精神。
+					</p>
+					<p>
+						孩子们晒黑了，值！孩子们瘦了很多，值！我们要感谢军训，感谢这次难得的军营之旅。我们要把军队的优良作风、军人
+						的优秀品质带到孩子们今后的学习、生活中，我们要发扬自强不息精神，造就属于景秀教育辉煌。
+					</p>
+					
+				</section>
+			</div>
+		</div>
+		<div class="zixun">
+				<div class="container3">
+				<div class="small">
+					<ul class="row clearfix">
+						<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12"><p>咨询电话：</p><span>010-58447031<br /> 010-58447030</span>
+						</li>
+						<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<p>咨询邮箱：<br />&nbsp;&nbsp;&nbsp;Mobile：</p><span>bjjxkj@126.com<br />15321575023</span>
+						</li>
+						<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<p>咨询QQ：</p><span>1718693915<br /> 1019959019<br /></span>
+						</li>
+						<li class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<p>学院网址：<br /> 学院地址：</p><span>http://www.zgcxueyuan.com<br />中关村学院二分院(北京市
+							海淀区中关村环保科技园温阳路170号)</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+	</body>
+</html>
+

@@ -1,0 +1,15 @@
+.container2 aside nav li:nth-of-type(1).hover{background-image:url(../images/新生军训-2.gif); margin-bottom:15px; border-bottom:3px solid #fe9635;}
+@media screen and (min-width:720px){
+	.container2{width:100%;}
+	.container2 .students{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(1).hover{background-image:url(../images/新生军训-2.gif);}
+	
+}
+@media screen and (min-width:480px) and (max-width:990px){
+	.container2 .students{padding:0 1.5%;}
+	.container2 aside nav li:nth-of-type(1).hover{background-image:url(../images/新生军训-2.gif); border:0;}
+}
+@media screen and (max-width:480px){
+	.container2 aside nav li:nth-of-type(1).hover{border:0;}
+	.container2 aside nav li:nth-of-type(1).hover{background-image:url(../images/新生军训-2.gif);}
+}

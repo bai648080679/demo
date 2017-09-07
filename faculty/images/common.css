@@ -1,0 +1,108 @@
+body{overflow-x: hidden;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:enabled{text-decoration: none;}
+.bg{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	z-index: 10000;
+}
+.container{
+	padding: 0;
+}
+li{cursor: pointer;}
+.container,.container3{
+	max-width:1000px;
+	margin: 0 auto;
+	min-width: 320px;
+}
+.container header img{
+	width: 100%;
+}
+.container header .logo{
+	width: 17.1%;
+	padding-top: 10px;
+	margin-right:9.6% ;
+}
+.container header nav{
+	width: 73.3%;
+}
+.container header nav ul{
+	margin-bottom: 0;
+}
+.container header nav ul li{
+	float: left;
+	line-height: 80px;
+	width:12.5%;
+	text-align: center;
+}
+.container header nav ul li:hover{
+	background: #5c5c5c;
+}
+.container header nav ul li:nth-of-type(4){
+	background: #5c5c5c;
+}
+.container header nav ul li a{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+header .caidan{
+		display: block;
+		float:right;
+		margin-right: 10%;
+		height: 34px;
+		line-height: 34px;
+		padding-top:6px;
+	}
+.caidan .xiala{
+		height:24px;
+		width: 30px;
+		background: url(../../common/pic8.jpg) no-repeat center center;
+	}
+ .nav{
+		min-width: 0px;
+		background: #000000;
+	}
+ .nav li{
+	float: left;
+	width: 25%;
+	line-height:30px;
+	text-align: center;
+}
+ .nav li:hover{
+ 	background: #FFFFFF;
+ }
+ .nav li:hover a{
+ 	color: #000000;
+ }
+  .nav li a{
+	        font-size: 0.87em;
+	        color: #FFFFFF;
+	}
+	
+
+.zixun{width: 100%; background: #333333;}
+.small ul{padding-top: 46px;padding-bottom: 52px; padding-left: 15px; padding-right: 15px;}
+.small ul li{color: #FFFFFF; padding: 0; line-height: 26px; font-size: 14px;}
+.small ul li p{width:30%; float: left; padding-bottom: 0; float: left; text-align: right;}
+.small ul li span{float: left; width: 70%;}
+@media screen and (min-width: 720px) and (max-width: 768px) {
+	.bg{position: relative;}
+	.container header{padding-bottom: 10px;}
+	.small ul li{width: 47%; padding-left: 8px; padding-right: 8px;}
+}
+/*小屏*/
+@media screen and (max-width:720px) and (min-width:480px){
+	.bg{position: relative;}
+	.container header{padding-bottom: 10px;}
+	.small ul li{width: 47%; padding-left: 8px; padding-right: 8px;}
+}
+@media only screen and (min-width:480px) and (max-width: 550px) {
+	.small ul li{width: 43%; padding-left:5px; padding-right: 5px;}
+}
+@media only screen and (max-width:480px ) {
+	.bg{position: relative;}
+	.container header{padding-bottom: 10px;}
+	.small ul li{width: 100%;}
+}

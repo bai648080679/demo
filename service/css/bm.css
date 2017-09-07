@@ -1,0 +1,144 @@
+nav ul li:nth-of-type(7) a{ background: #5c5c5c;}
+nav ul li:nth-of-type(2) a{ background: none;}
+nav ul li:nth-of-type(2) a:hover{ background: #5c5c5c;}
+nav ul li:nth-of-type(1) a:hover{ background: #5c5c5c;}
+nav ul li:nth-of-type(1) a{ background: none;}
+.banner .left ul li a{color: #222222;}
+.banner .left ul li a:hover{color: #222222;}
+.banner .right h4{margin-bottom: 0;}
+@media screen and (min-width: 1000px){
+	.container1 { width: 100%; margin-top:80px;}
+	.banner{ width: 980px; margin: 0px auto; padding-top: 40px;}
+	.banner .left,.container1 .right{ float: left;}
+	.banner .left{ width: 240px; border-right: 1px solid #bbb;}
+	.banner .right{ width: 659px;}
+	.banner .left ul li{ padding-top: 20px;  width: 230px; font-family: "微软雅黑"; font-size: 22px; height: 60px; line-height: 60px; text-indent:75px; }
+	.banner .left ul li a{ display: block; }
+	.banner .left ul li a{ border-bottom: 3px solid #fff; transition: 0.6s;}
+	.banner .left ul li:nth-of-type(1) a{  background: url(../img/service_1_1.jpg) no-repeat 15px center; background-size:40px;}
+	.banner .left ul li:nth-of-type(2) a{  background: url(../img/service_2_1.jpg) no-repeat 15px center; background-size:40px;}
+	.banner .left ul li:nth-of-type(3) a{  background: url(../img/service_3_1.jpg) no-repeat 15px center; background-size:40px;}
+	.banner .left ul li:nth-of-type(4) a{  background: url(../img/service_4_1.jpg) no-repeat 15px center; background-size:40px;}
+	
+	.banner .left ul li:nth-of-type(1) a:hover { border-bottom: 3px solid #FA9634; background: url(../img/service_1_2.jpg) no-repeat 15px center; background-size:40px;}
+	.banner .left ul li:nth-of-type(2) a:hover { border-bottom: 3px solid #FA9634; background: url(../img/service_2_2.jpg) no-repeat 15px center; background-size:40px;}
+	.banner .left ul li:nth-of-type(3) a:hover { border-bottom: 3px solid #FA9634; background: url(../img/service_3_2.jpg) no-repeat 15px center; background-size:40px;}
+	.banner .left ul li:nth-of-type(4) a/*:hover*/ { border-bottom: 3px solid #FA9634; background: url(../img/service_4_2.jpg) no-repeat 15px center; background-size:40px;}
+	
+	.banner .right { padding-bottom: 140px; margin-left: 45px;}
+	.banner .right h4{ font-size: 18px; line-height: 24px; margin-top: 18px; color: #FA9634; font-family: "微软雅黑"; font-weight: bold;}
+	.banner .right p{ font-size: 16px; line-height: 30px; font-family: "微软雅黑";}
+	.banner .right .yaoqiu { font-size: 16px;}
+	.banner .right h4 span{display: inline-block; font-size: 16px; color: #222; font-weight: normal;  font-weight: 0;}
+	.banner .right div{ padding: 23px 0px 17px 0px;}
+}
+
+
+
+
+
+
+@media screen and (min-width:720px) and (max-width: 1000px) {
+	.container1 { width: 100%;}
+	.visi_720{ display: none;}
+	.banner{ width: 100%; margin: 0px auto; padding-top: 35px;}
+	.banner .left,.container1 .right{ float: left;}
+	.banner .left{ width: 27%; border-right: 1px solid #bbb; padding-left: 2%;}
+	.banner .right{ width: 60.4%;}
+	.banner .left ul li{ padding-top: 20px; width: 97%; font-family: "微软雅黑"; font-size: 22px; height: 60px; line-height: 60px; text-align: center;   }
+	.banner .left ul li a{ display: block;}
+	.banner .left ul li a{ border-bottom: 3px solid #fff; transition: 0.6s;}
+	.banner .left ul li:nth-of-type(1) a{  background: url(../img/service_1_1.jpg) no-repeat 15px center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(2) a{  background: url(../img/service_2_1.jpg) no-repeat 15px center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(3) a{  background: url(../img/service_3_1.jpg) no-repeat 15px center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(4) a{  background: url(../img/service_4_1.jpg) no-repeat 15px center; background-size:40px ;}
+	
+	.banner .left ul li:nth-of-type(1) a:hover{ border-bottom: 3px solid #FA9634; background: url(../img/service_1_2.jpg) no-repeat 15px center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(2) a:hover { border-bottom: 3px solid #FA9634; background: url(../img/service_2_2.jpg) no-repeat 15px center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(3) a:hover { border-bottom: 3px solid #FA9634; background: url(../img/service_3_2.jpg) no-repeat 15px center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(4) a/*:hover*/ { border-bottom: 3px solid #FA9634; background: url(../img/service_4_2.jpg) no-repeat 15px center; background-size:40px ;}
+	
+	
+	.banner .right { padding-bottom: 140px; margin-left: 4.5%;}
+	.banner .right h4{ font-size: 18px;  line-height: 26px; color: #FA9634; font-family: "微软雅黑"; font-weight: bold; margin-top: 8px;}
+	.banner .right p{ font-size: 16px; line-height: 31px; font-family: "微软雅黑"; margin-top: 7px;}
+	.banner .right h4 span{display: inline-block; font-size: 16px; color: #222; font-weight: normal;  font-weight: 0;}
+	.banner .right div{ padding: 23px 0px 17px 0px;}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+	.container1{ margin-top:80px;}
+}
+@media only screen and (min-width:720px) and (max-width:820px) {
+	.banner .left ul li{ padding-top: 10px; width: 95%; font-family: "微软雅黑"; font-size: 22px; height: 60px; line-height: 60px;  text-indent:25%;}
+}
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+	.container1 { width: 100%;}
+	.visi_720,.visi{ display: none;}
+	
+	.banner{ width: 90%; margin: 0px auto; padding-top: 30px;}
+	/*.banner .left,.container .right{ float: left;}*/
+	.banner .left{ width: 100%; /*border-right: 1px solid #bbb;*/ margin-bottom: 0px;}
+	.banner .right{ width: 100%;}
+	.banner .left ul li{ width: 25%; float: left; margin-bottom: 5px;}
+	.banner .left ul li a{ height: 50px; line-height: 50px; font-size: 20px; padding-top:30px; font-family: "微软雅黑"; width:85%; text-align: center; display: block; }
+	
+	
+	
+	
+	.banner .left ul li a{  transition: 0.1s; border-bottom: 3px solid #fff; background-size: 40px;}
+	.banner .left ul li:nth-of-type(1) a{  background: url(../img/service_1_1.jpg) no-repeat top center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(2) a{  background: url(../img/service_2_1.jpg) no-repeat top center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(3) a{  background: url(../img/service_3_1.jpg) no-repeat top center; background-size:40px ;}
+	/*.banner .left ul li:nth-of-type(4) a{  background: url(../img/service_4_1.jpg) no-repeat top center; background-size:40px ;}*/
+	
+	.banner .left ul li:nth-of-type(1) a:hover {  background: url(../img/service_1_2.jpg) no-repeat top center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(2) a:hover {  background: url(../img/service_2_2.jpg) no-repeat top center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(3) a:hover {  background: url(../img/service_3_2.jpg) no-repeat top center; background-size:40px ;}
+	.banner .left ul li:nth-of-type(4) a/*:hover*/ {  background: url(../img/service_4_2.jpg) no-repeat top center; background-size:40px ;}
+	
+	
+	
+	
+	.banner .right { padding-bottom: 140px; /*margin-left: 4.5%;*/}
+	.banner .right h4{ font-size: 18px;  line-height: 26px; color: #FA9634; font-family: "微软雅黑"; font-weight: bold; margin-top: 8px;}
+	.banner .right p{ font-size: 16px; line-height: 31px; font-family: "微软雅黑"; margin-top: 7px;}
+	.banner .right h4 span{display: inline-block; font-size: 16px; color: #222; font-weight: normal;  font-weight: 0;}
+	.banner .right div{ padding: 23px 0px 17px 0px;}
+}
+
+
+
+
+
+
+@media  screen and (max-width:480px ) {
+	.container1{ width: 90%; margin: 0px auto;}
+	.banner .left{ padding-top: 30px;}
+	.banner .left ul li a span{ display: none;}
+	
+	.banner .left ul li{ width: 25%; float: left; margin-bottom: 0px;}
+	.banner .left ul li a{ height: 50px; line-height: 50px; font-size: 18px; border-bottom: 3px solid #fff; padding-top:30px; font-family: "微软雅黑"; width: 85%;  text-align: center; display: block; }
+	
+	.banner .left ul li:nth-of-type(1) a{  background: url(../img/service_1_1.jpg) no-repeat top center; background-size: 40px;}
+	.banner .left ul li:nth-of-type(2) a{  background: url(../img/service_2_1.jpg) no-repeat top center; background-size: 40px;}
+	.banner .left ul li:nth-of-type(3) a{  background: url(../img/service_3_1.jpg) no-repeat top center; background-size: 40px;}
+	/*.banner .left ul li:nth-of-type(4) a{  background: url(../img/service_4_1.jpg) no-repeat top center; background-size: 40px;}*/
+	
+	.banner .left ul li:nth-of-type(1) a:hover{  background: url(../img/service_1_2.jpg) no-repeat top center; background-size: 40px;}
+	.banner .left ul li:nth-of-type(2) a:hover {  background: url(../img/service_2_2.jpg) no-repeat top center; background-size: 40px;}
+	.banner .left ul li:nth-of-type(3) a:hover {  background: url(../img/service_3_2.jpg) no-repeat top center; background-size: 40px;}
+	.banner .left ul li:nth-of-type(4) a/*:hover*/ {  background: url(../img/service_4_2.jpg) no-repeat top center; background-size: 40px;}
+	
+	
+	.banner .right { padding-bottom: 140px; /*margin-left: 4.5%;*/}
+	.banner .right h4{ font-size: 18px;  line-height: 26px; color: #FA9634; font-family: "微软雅黑"; font-weight: bold; margin-top: 8px;}
+	.banner .right p{ font-size: 16px; line-height: 31px; font-family: "微软雅黑"; margin-top: 7px;}
+	.banner .right h4 span{display: inline-block; font-size: 16px; color: #222; font-weight: normal;  font-weight: 0;}
+	.banner .right div{ padding: 23px 0px 17px 0px;}
+}
+

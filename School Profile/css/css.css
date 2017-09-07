@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*css.document*/
+img{width: 100%;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+a:enabled{text-decoration: none;}
+.bg{
+	width: 100%;
+	background: #333333;
+	position: fixed;
+	z-index: 10000;
+}
+.container{
+	padding: 0;
+}
+li{cursor: pointer;}
+.container,.container2{
+	max-width:1000px;
+	margin: 0 auto;
+	min-width: 320px;
+}
+.container header .logo{
+	width: 17.1%;
+	padding-top: 10px;
+	margin-right:9.6% ;
+}
+.container header nav{
+	width: 73.3%;
+}
+.container header nav ul{
+	margin-bottom: 0;
+}
+.container header nav ul li{
+	float: left;
+	line-height: 80px;
+	width:12.5%;
+	text-align: center;
+}
+.container header nav ul li a{display: block; background: transparent; height: 100%; width: 100%;}
+.container header nav ul li:hover{
+	background: #5c5c5c;
+}
+.container header nav ul li:nth-of-type(2){
+	background: #5c5c5c;
+}
+.container header nav ul li a{
+    font-size: 14px;
+    color: #FFFFFF;
+}
+header .caidan{
+		display: block;
+		float:right;
+		margin-right: 10%;
+		height: 34px;
+		line-height: 34px;
+		padding-top:6px;
+	}
+.caidan .xiala{
+		height:24px;
+		width: 30px;
+		background: url(../../common/pic8.jpg) no-repeat center center;
+	}
+ .nav{
+		min-width: 0px;
+		background: #000000;
+	}
+ .nav li{
+	float: left;
+	width: 25%;
+	line-height:30px;
+	text-align: center;
+}
+ .nav li:hover{
+ 	background: #FFFFFF;
+ }
+ .nav li:hover a{
+ 	color: #000000;
+ }
+  .nav li a{
+	        font-size: 0.87em;
+	        color: #FFFFFF;
+	}
+	
+.container1{width: 100%;}
+.container1 .main{max-width: 1000px; margin: 0 auto; padding-top:120px;}
+.container1 .main section h2{margin-top: 0; margin-bottom: 0; margin: 0;}
+.container1 .main section,.container .main article{float: left;}
+@media screen and (min-width:1000px){
+	.container1 .main section,.container .main article{float: left;}
+	.container1 .main section{width: 26.5%; border-right: 1px solid #bbb;}
+	.container1 .main section h2{ width: 95%; height: 80px; line-height: 80px; padding-left: 30%;}
+	.container1 .main section h2:nth-of-type(1){ background: url(../img/class-1.jpg) no-repeat 10px center; border-bottom: 3px solid #fa9634;}
+	.container1 .main section h2:nth-of-type(2){ background: url(../img/class-2.jpg) no-repeat 10px center;border-bottom: 3px solid #fff;}
+	.container1 .main section h2:nth-of-type(2):hover{ background: url(../img/class2-2.jpg) no-repeat 10px center;border-bottom: 3px solid #fa9634;}
+	.container1 .main section h2 a{ display:block;font-size: 22px; font-family: "微软雅黑"; color: #222222;}
+	.container1 .main article{width: 73.4%; float: left;}
+	.container1 .main article p{ padding-left: 7%; font-size: 16px; font-family: "微软雅黑"; line-height: 30px; text-indent: 32px;}
+	.container1 .main article p img{padding-top: 20px; padding-bottom: 20px;  }
+	.container1 .main article p:nth-of-type(3){ padding-top: 30px; padding-bottom: 50px;}
+}
+@media screen and (min-width:720px ) and (max-width:1000px) {
+	.container1 .main section,.container1 .main article{float: left;}
+	.container1 .main section{width: 23.5%; border-right: 1px solid #bbb; margin-left: 3%;}
+	.container1 .main section h2{ width:95%; height: 80px; line-height: 80px; padding-left: 30%;}
+	.container1 .main section h2:nth-of-type(1){ background: url(../img/class-1.jpg) no-repeat 10px center; border-bottom: 3px solid #fa9634;}
+	.container1 .main section h2:nth-of-type(2){ background: url(../img/class-2.jpg) no-repeat 10px center;border-bottom: 3px solid #fff;}
+	.container1 .main section h2:nth-of-type(2):hover{ background: url(../img/class2-2.jpg) no-repeat 10px center;border-bottom: 3px solid #fa9634;}
+	.container1 .main section h2 a{ display:block;font-size: 22px; font-family: "微软雅黑";color: #222222;}
+	.container1 .main article{width: 69.4%; margin-right: 3%; float: left;}
+	.container1 .main article p{ padding-left: 7%; font-size: 16px; font-family: "微软雅黑"; line-height: 30px; text-indent: 32px;}
+	.container1 .main article p img{padding-top: 20px; padding-bottom: 20px;  }
+	.container1 .main article p:nth-of-type(3){ padding-top: 30px; padding-bottom: 50px;}
+}
+@media only screen and (min-width: 720px) and (max-width: 768px) {
+	.bg{position: relative;}
+	.container1 .main{ padding-top:20px;}
+	.container header{padding-bottom: 10px;}
+	.small ul li{width: 50%;}
+}
+
+@media screen and (min-width:480px ) and (max-width:720px) {
+	.container1 .main{max-width: 1000px; margin: 0 auto;padding-top:20px;}
+	.container1 .main section{width: 94%; margin-left: 3%; margin-right: 3%;}
+	.container1 .main section h2{ width:45%; height: 80px; line-height: 80px; padding-left: 15%; margin-right: 2%; float: left;}
+	.container1 .main section h2:nth-of-type(1){ background: url(../img/class-1.jpg) no-repeat 10px center; }
+	.container1 .main section h2:nth-of-type(2){ background: url(../img/class-2.jpg) no-repeat 10px center;}
+	.container1 .main section h2:nth-of-type(2):hover{ background: url(../img/class2-2.jpg) no-repeat 10px center;}
+	.container1 .main section h2 a{ display:block;font-size: 22px; font-family: "微软雅黑";color: #222222;}
+	.container1 .main article{width: 97%; margin-right: 3%; padding-top: 20px;}
+	.container1 .main article p{ padding-left: 3%; font-size: 16px; font-family: "微软雅黑"; line-height: 30px; text-indent: 32px;}
+	.container1 .main article p img{padding-top: 20px; padding-bottom: 20px;  }
+	.container1 .main article p:nth-of-type(3){ padding-top: 30px; padding-bottom: 50px;}
+    .container header{padding-bottom: 10px;}
+    .bg{position: relative;}
+    .small ul{padding-top: 20px; padding-bottom: 20px;}
+}
+@media screen and (max-width:480px){
+	.container1 .main{max-width: 1000px; margin: 0 auto;padding-top:20px; }
+	.container1 .main section{width: 94%; margin-left: 3%; margin-right: 3%;}
+	.container1 .main section h2{ float: left; width:45%; height: 60px; line-height: 60px; padding-left: 18%; margin-right: 2%; text-align: center;}
+	.container1 .main section h2:nth-of-type(1){ background: url(../img/class-1.jpg) no-repeat 10px center;}
+	.container1 .main section h2:nth-of-type(2){ background: url(../img/class-2.jpg) no-repeat 10px center;}
+	.container1 .main section h2:nth-of-type(2):hover{ background: url(../img/class2-2.jpg) no-repeat 10px center;}
+	.container1 .main section h2 a{ display:block;font-size: 18px; font-family: "微软雅黑";color: #222222;}
+	.container1 .main article{width: 97%; margin-right: 3%;}
+	.container1 .main article p{ padding-left: 3%; font-size:16px; font-family: "微软雅黑"; line-height: 30px; text-indent: 32px;}
+	.container1 .main article p img{padding-top: 20px; padding-bottom: 20px;  }
+	.container1 .main article p:nth-of-type(3){ padding-top: 30px; padding-bottom: 50px;}
+    .container header{padding-bottom: 10px;}
+    .bg{position: relative;}
+    .small ul{padding-top: 20px; padding-bottom: 20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.zixun{width: 100%; background: #333333;}
+.small ul{padding-top: 46px;padding-bottom: 52px; padding-left: 15px; padding-right: 15px;}
+.small ul li{color: #FFFFFF; padding: 0; line-height: 26px; font-size: 14px;}
+.small ul li p{width:30%; float: left; padding-bottom: 0; float: left; text-align: right;}
+.small ul li span{float: left; width: 70%;}
